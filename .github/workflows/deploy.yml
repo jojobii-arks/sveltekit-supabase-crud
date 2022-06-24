@@ -12,6 +12,10 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
 
+    env:
+      VITE_SUPABASE_URL: https://ntwasvlqeoatxgsqfcjx.supabase.co
+      VITE_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im50d2FzdmxxZW9hdHhnc3FmY2p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTYwNDQ4NTgsImV4cCI6MTk3MTYyMDg1OH0._f0tXb8JmV96zdgpLIAW_sR2hSihBrVXFY2wLGGYtA4
+
     # Allow this job to push changes to your repository
     permissions:
       contents: write
