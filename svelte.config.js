@@ -13,7 +13,7 @@ const config = {
 		paths: {
 			base: '/sveltekit-supabase-crud'
 		},
-		appDir: 'internal'
+		appDir: 'sveltekit-supabase-crud/internal'
 	}
 };
 
