@@ -12,7 +12,7 @@
 	});
 
 	async function fetchPosts() {
-		const { data, error } = await supabase.from('todos').select('*').order('id');
+		const { data, error } = await supabase.from('todos').select('*').order('created_at');
 		if (error) {
 			console.error(error);
 			return;
