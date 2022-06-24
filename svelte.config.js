@@ -11,9 +11,9 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV ? '' : '/sveltekit-supabase-crud'
+			base: '/sveltekit-supabase-crud'
 		},
-		appDir: 'sveltekit-supabase-crud/internal'
+		appDir: 'internal'
 	}
 };
 
