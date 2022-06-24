@@ -10,10 +10,6 @@ const config = {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
-		paths: {
-			base: '/sveltekit-supabase-crud'
-		},
-		appDir: 'sveltekit-supabase-crud/internal'
 	}
 };
 
